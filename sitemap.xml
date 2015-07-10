@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://neteasemusiccocoa.github.io/blog/2015/07/10/hello-world/</loc>
-    <lastmod>2015-07-10T13:11:36+08:00</lastmod>
-  </url>
-  <url>
     <loc>http://neteasemusiccocoa.github.io/blog/</loc>
   </url>
   <url>
@@ -21,8 +17,5 @@
   </url>
   <url>
     <loc>http://neteasemusiccocoa.github.io/about/</loc>
-  </url>
-  <url>
-    <loc>http://neteasemusiccocoa.github.io/blog/categories/qi-ta/</loc>
   </url>
 </urlset>
