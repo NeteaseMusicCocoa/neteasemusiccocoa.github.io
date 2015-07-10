@@ -22,7 +22,7 @@ footer: false
 
 [@OpenFibers](http://weibo.com/openthread) ([github](https://github.com/OpenFibers)，[blog](http://openfibers.github.io/))
 
-[@金东JD](http://weibo.com/jindongjd)
+[@BlackMondayJD](http://weibo.com/jindongjd)
 
 [@Grace_HD](http://www.weibo.com/hedan1106)
 
