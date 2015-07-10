@@ -24,7 +24,7 @@ footer: false
 
 [@金东JD](http://weibo.com/jindongjd)
 
-[@Grace_HD](http://weibo.com/u/5602995492)
+[@Grace_HD](http://www.weibo.com/hedan1106)
 
 感谢其他为云音乐iOS/Mac客户端贡献过代码的人：
 
