@@ -2,7 +2,11 @@
     <p>
     Copyright &copy; {{ site.time | date: "%Y" }}
     {% if site.author %}
-    	{{ site.author }}
+    	{% if site.author_link %}
+    		<span class="byline author vcard"><a class="fn" href="{{ site.author_link }}">{{ site.author }}</a></span>
+    	{% else %}
+    		{{ site.author }}
+    	{% endif %}
 	{% else %}
     	{{ site.title }}
 	{% endif %}

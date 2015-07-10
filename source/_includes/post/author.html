@@ -1,8 +1,22 @@
 {% if post.author %}
   {% assign author = post.author %}
+  {% if post.author_link %}
+  	{% assign author_link = post.author_link %}
+  {% endif %}
 {% elsif page.author %}
   {% assign author = page.author %}
+  {% if page.author_link %}
+  	{% assign author_link = page.author_link %}
+  {% endif %}
 {% else %}
   {% assign author = site.author %}
+  {% if site.author_link %}
+  	{% assign author_link = site.author_link %}
+  {% endif %}
 {% endif %}
-{% if author %}<span class="byline author vcard">Posted by <span class="fn">{{ author }}</span></span>{% endif %}
+
+{% if author_link %}
+	{% if author %}<span class="byline author vcard">by <a class="fn" href="{{ author_link }}">{{ author}}</a></span>{% endif %}
+{% else %}
+	{% if author %}<span class="byline author vcard">by <span class="fn">{{ author}}</span></span>{% endif %}
+{% endif %}

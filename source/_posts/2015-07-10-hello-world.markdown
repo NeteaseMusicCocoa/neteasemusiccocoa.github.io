@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Hello world"
+author: 程寅
+author_link: http://msching.github.io
 date: 2015-07-10 13:11:36 +0800
 comments: true
 categories: [其他]
