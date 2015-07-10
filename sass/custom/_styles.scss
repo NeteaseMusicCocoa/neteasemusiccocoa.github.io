@@ -1,2 +1,152 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+
+/* Home page */
+div.main-grid {
+	background: transparent;
+	display:table;
+	width:100%;
+	height: 200px;
+	margin-top: 15%;
+	border: 0px;
+}
+
+div.grid {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	background: transparent;
+}
+
+/* Social Icon at bottom */
+div.social-nav {
+	position: fixed;
+	background: transparent;
+	bottom: 5px;
+	right: 5px;
+	width: 100%;
+	border-bottom: none;
+}
+
+.icon-color {
+	color: $theme-color;
+}
+
+.icon-homepage {
+	margin-right: 5px;
+	float: right;
+	padding: 5px;
+}
+
+/* Separator after each post */
+article {
+	border-bottom: 1px solid #bbb;
+}
+
+/* Footer in sidebar */
+.footer_in_sidebar {
+  width: 100%;
+}
+
+.footer_in_sidebar p{
+  font-size: 0.8em;
+  text-shadow: 0 1px #374251;
+  color: #888888;
+}
+
+hgroup {
+	text-decoration: none;
+	color: $main-title-color;
+}
+
+* + table {
+  border-style:solid;
+  border-width:1px;
+  border-color:#e7e3e7;
+}
+
+* + table th, * + table td {
+  border-style:dashed;
+  border-width:1px;
+  border-color:#e7e3e7;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+* + table th {
+  border-style:solid;
+  font-weight:bold;
+  background: url("/images/noise.png?1330434582") repeat scroll left top #F7F3F7;
+}
+
+* + table th[align="left"], * + table td[align="left"] {
+  text-align:left;
+}
+
+* + table th[align="right"], * + table td[align="right"] {
+  text-align:right;
+}
+
+* + table th[align="center"], * + table td[align="center"] {
+  text-align:center;
+}
+
+
+/* hero styles */
+
+.hero {
+	background-color : $theme-color;
+}
+
+.wrap {
+	width: 100% ;
+	text-align: center;
+	color: #fff;
+}
+
+body>header h2 {
+	font-size: 16px;
+	letter-spacing: -0.5px;
+}
+
+/* divider */
+.divider {
+	border-top-color : #bbb;
+	margin: 0 auto;
+	width: 380px;
+}
+
+/* Syntax highlight */
+.highlight code, .line-numbers {
+	background: rgba(226, 142, 50, 0.1) url('/images/noise.png?1404529780') top left !important;
+}
+.highlight {
+    background: rgba(226, 142, 50, 0.1);
+}
+.highlight table td.code {
+	border-left: 4px solid $theme-color;
+}
+.highlight .line-numbers {
+	text-shadow: none;
+    background: rgba(226,142,50,0.1) !important;
+}
+.highlight {
+	border: 1px solid #fff !important;
+}
+
+/* Nav Bar +  Search form */
+body>nav form .search {
+	line-height: 1em;
+	color: #aaa;
+}
+body>nav a {
+	color: #aaa;
+}
+
+/* Set footer max width */
+aside.sidebar section {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}

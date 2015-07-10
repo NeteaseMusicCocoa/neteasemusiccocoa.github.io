@@ -5,9 +5,8 @@
   article {
     padding: 1em 0 1em;
     position: relative;
-    background: $img-border bottom left repeat-x;
     &:last-child {
-      background: none;
+      border-bottom: none;
     }
     footer { padding: 0; margin: 0;}
   }

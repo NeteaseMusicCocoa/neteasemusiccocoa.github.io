@@ -1,4 +1,4 @@
-$max-width: 1200px !default;
+$max-width: 900px !default;
 
 // Padding used for layout margins
 $pad-min: 18px !default;
@@ -15,8 +15,8 @@ $sidebar-width-wide: 300px !default;
 $indented-lists: false !default;
 
 $header-font-size: 1em !default;
-$header-padding-top: 1.5em !default;
-$header-padding-bottom: 1.5em !default;
+$header-padding-top: 2.5em !default;
+$header-padding-bottom: 2.5em !default;
 
 .group { @include pie-clearfix; }
 
@@ -26,7 +26,7 @@ $header-padding-bottom: 1.5em !default;
   clear: left;
   margin: 0;
   padding: 0 $pad-medium 1px;
-  background-color: lighten($sidebar-bg, 2);
+  background-color: $sidebar-bg;
   border-top: 1px solid lighten($sidebar-border, 4);
   section {
     &.odd, &.even { float: left; width: 48%; }
@@ -43,9 +43,13 @@ $header-padding-bottom: 1.5em !default;
   }
 }
 
+body > nav {
+  max-width: 100%;
+}
+
 body {
   -webkit-text-size-adjust: none;
-  max-width: $max-width;
+  max-width: 100%;
   position: relative;
   margin: 0 auto;
   > header, > nav, > footer, #content > article, #content > div > article, #content > div > section {
@@ -97,7 +101,7 @@ body {
 aside.sidebar {
   float: none;
   padding: 0 $pad-min 1px;
-  background-color: lighten($sidebar-bg, 2);
+  background-color: $sidebar-bg;
   border-top: 1px solid $sidebar-border;
   @extend .group;
 }
@@ -136,16 +140,15 @@ body.sidebar-footer {
   #main {
     padding: 0;
     margin: 0 auto;
+    max-width: $max-width;
   }
   #content {
     overflow: visible;
     margin-right: $sidebar-width-medium;
     position: relative;
     .no-sidebar & { margin-right: 0; border-right: 0; }
-    .collapse-sidebar & { margin-right: 20px; }
+    /*.collapse-sidebar & { margin-right: 20px;}*/
     > div, > article {
-      padding-top: $pad-medium/2;
-      padding-bottom: $pad-medium/2;
       float: left;
     }
   }
@@ -171,8 +174,7 @@ body.sidebar-footer {
   #content { margin-right: $sidebar-width-wide; }
   #content {
     > div, > article {
-      padding-top: $pad-wide/2;
-      padding-bottom: $pad-wide/2;
+      padding-bottom: 0;
     }
   }
   aside.sidebar {
@@ -186,7 +188,7 @@ body.sidebar-footer {
 
 @if $indented-lists == false {
   @media only screen and (min-width: 768px) {
-    ul, ol { margin-left: 0; }
+    ul, ol { margin-left: 25px; }
   }
 }
 
