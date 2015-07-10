@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[网易云音乐Cocoa团队]]></title>
-  <link href="http://neteasemusiccocoa.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[其他 | 网易云音乐Cocoa团队]]></title>
+  <link href="http://neteasemusiccocoa.github.io/blog/categories/qi-ta/atom.xml" rel="self"/>
   <link href="http://neteasemusiccocoa.github.io/"/>
   <updated>2015-07-10T14:53:53+08:00</updated>
   <id>http://neteasemusiccocoa.github.io/</id>
