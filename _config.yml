@@ -5,7 +5,7 @@
 url: http://neteasemusiccocoa.github.io
 title: 网易云音乐Cocoa团队
 subtitle: Netease Cloud Music Cocoa team.
-author: Netease Cloud Music
+author: 网易云音乐
 simple_search: https://www.google.com/search
 description:
 
@@ -59,6 +59,9 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # blog_index_asides:
 # post_asides:
 # page_asides:
+
+category_title_prefix: ''
+category_meta_description_prefix: ''
 
 # ----------------------- #
 #   3rd Party Settings    #
