@@ -4,13 +4,22 @@
   <title><![CDATA[网易云音乐Cocoa团队]]></title>
   <link href="http://neteasemusiccocoa.github.io/atom.xml" rel="self"/>
   <link href="http://neteasemusiccocoa.github.io/"/>
-  <updated>2015-07-10T12:48:26+08:00</updated>
+  <updated>2015-07-10T13:34:22+08:00</updated>
   <id>http://neteasemusiccocoa.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Netease Cloud Music]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://neteasemusiccocoa.github.io/blog/2015/07/10/hello-world/"/>
+    <updated>2015-07-10T13:11:36+08:00</updated>
+    <id>http://neteasemusiccocoa.github.io/blog/2015/07/10/hello-world</id>
+    <content type="html"><![CDATA[<h1>Hello world</h1>
+]]></content>
+  </entry>
   
 </feed>
