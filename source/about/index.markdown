@@ -14,7 +14,7 @@ footer: false
 
 [网易云音乐Mac版](https://itunes.apple.com/cn/app/wang-yi-yun-yin-le/id944848654?mt=12)
 
-我们是一个**5**人的小团队：
+而我们却只是一支由**5**人组成的小团队：
 
 [@非肥](http://weibo.com/jeunfung)
 
@@ -26,7 +26,7 @@ footer: false
 
 [@Grace_HD](http://www.weibo.com/hedan1106)
 
-感谢其他为云音乐iOS/Mac客户端贡献过代码的人：
+也感谢其他为云音乐iOS/Mac客户端贡献过代码的人：
 
 [@曹偲](http://weibo.com/u/1801448964)（[InfoQ的演讲](http://www.infoq.com/cn/presentations/technology-and-development-experience-of-wangyi-cloud-music)）
 
