@@ -2,9 +2,9 @@
 {% unless category == '0' %}
 <span class="categories">
   {% if post %}
-    {{ post.categories | category_links }}
+    分类：{{ post.categories | category_links }}
   {% else %}
-    {{ page.categories | category_links }}
+    分类：{{ page.categories | category_links }}
   {% endif %}
 </span>
 {% endunless %}

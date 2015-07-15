@@ -14,7 +14,7 @@ footer: false
 
 [网易云音乐Mac版](https://itunes.apple.com/cn/app/wang-yi-yun-yin-le/id944848654?mt=12)
 
-而我们却只是一支由**5**人组成的小团队：
+而我们却只是一个由**5**人组成的小团队：
 
 [@非肥](http://weibo.com/jeunfung)
 
