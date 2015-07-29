@@ -4,7 +4,7 @@ title: "关于我们"
 footer: false
 ---
 
-我们是来自[网易云音乐](http://music.163.com)技术团的Cocoa开发组；
+我们是来自[网易云音乐](http://music.163.com)技术团队的Cocoa开发组；
 
 我们负责了云音乐三个客户端的开发：
 
@@ -26,7 +26,7 @@ footer: false
 
 [@Grace_HD](http://www.weibo.com/hedan1106)
 
-也感谢其他为云音乐iOS/Mac客户端贡献过代码的人：
+也感谢其他曾为云音乐iOS/Mac客户端贡献过代码的人：
 
 [@曹偲](http://weibo.com/u/1801448964)（[InfoQ的演讲](http://www.infoq.com/cn/presentations/technology-and-development-experience-of-wangyi-cloud-music)）
 

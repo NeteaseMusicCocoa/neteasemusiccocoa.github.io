@@ -1,40 +1,32 @@
-{% if post.author %}
-  {% assign author = post.author %}
-  {% if post.author_link %}
-  	{% assign author_link = post.author_link %}
-  {% endif %}
-  {% if post.author_avatar %}
-    {% assign author_avatar = post.author_avatar %}
-  {% endif %}
-{% elsif page.author %}
-  {% assign author = page.author %}
-  {% if page.author_link %}
-  	{% assign author_link = page.author_link %}
-  {% endif %}
-  {% if page.author_avatar %}
-    {% assign author_avatar = page.author_avatar %}
-  {% endif %}
-{% else %}
-  {% assign author = site.author %}
-  {% if site.author_link %}
-  	{% assign author_link = site.author_link %}
-  {% endif %}
+{% if post.authors %}
+  {% assign authors = post.authors %}
+{% elsif page.authors %}
+  {% assign authors = page.authors %}
 {% endif %}
 
-{% if author %}
-  {% if author_link %}
-    {% if author_avatar %}
-       <span class="byline author vcard">by 
-        <img src='/images/{{ author_avatar }}.jpg' style='width: 24px;height: 24px;margin-right: 2px;margin-left: 2px;border:0;border-radius: 100%;position: absolute;'/> 
-        <a class="fn" href="{{ author_link }}" style='margin-left:32px;'>{{ author}}</a>
-       </span>
-    {% else %}
-        <span class="byline author vcard">by 
-        <a class="fn" href="{{ author_link }}">{{ author}}</a>
-       </span>
-    {% endif %}
-  {% else %}
-    {% if author %}<span class="byline author vcard">by <span class="fn">{{ author}}</span></span>{% endif %}
-  {% endif %}
-  
+by
+{% if authors.size > 0 %}
+  {% for member in site.members %} 
+     {% if authors contains member.short %}
+        {% if member.site %}
+          {% if member.avatar %}
+             <span class="byline author vcard">
+              <img src='/images/{{ member.avatar }}.jpg' style='width: 24px;height: 24px;margin-right: 2px;margin-left: 2px;border:0;border-radius: 100%;position: absolute;'/> 
+              <a class="fn" href="{{ member.site }}" style='margin-left:32px;'>{{ member.name }}</a>
+             </span>
+          {% else %}
+              <span class="byline author vcard">
+              <a class="fn" href="{{ member.site }}">{{ member.name }}</a>
+             </span>
+          {% endif %}
+        {% else %}
+          <span class="byline author vcard">by <span class="fn">{{ member.name }}</span></span>
+        {% endif %}
+     {% endif %}
+  {% endfor %}
+{% else %}
+  <span class="byline author vcard">
+    <img src='/images/{{ site.team.avatar }}.jpg' style='width: 24px;height: 24px;margin-right: 2px;margin-left: 2px;border:0;border-radius: 100%;position: absolute;'/> 
+    <a class="fn" href="{{ site.team.site }}" style='margin-left:32px;'>{{ site.team.name }}</a>
+  </span>
 {% endif %}

@@ -107,3 +107,33 @@ facebook_like: false
 
 # duoshuo comments
 duoshuo_short_name: neteasemusiccocoa
+
+# team
+team:
+  name: 网易云音乐Cocoa团队
+  site: http://music.163.com/#/user/home?id=33634678
+  avatar: avatar_nm
+
+# members
+members:
+  - short: cy
+    name: 程寅zju
+    site: http://msching.github.io
+    avatar: avatar_cy
+  - short: sjh
+    name: OpenFibers
+    site: http://openfibers.github.io
+    avatar: avatar_ot
+  - short: ljf
+    name: 非肥
+    site: http://weibo.com/jeunfung
+    avatar: avatar_fx
+  - short: jd
+    name: BlackMondayJD
+    site: http://weibo.com/jindongjd
+    avatar: avatar_jd
+  - short: hd
+    name: Grace_HD
+    site: http://www.weibo.com/hedan1106
+    avatar: avatar_hd
+
